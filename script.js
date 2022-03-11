@@ -29,7 +29,7 @@ async function getHiria(hr){
     return error;
   };
 };
-
+//cambios
 async function deituAPI(latitud, longitud){
   try {
     let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitud}&lon=${longitud}&units=metric&appid=195824fd3a223678e885e518b934926f`)
